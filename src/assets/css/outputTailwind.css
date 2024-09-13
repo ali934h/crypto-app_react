@@ -791,11 +791,6 @@ video {
   background-color: rgb(190 24 93 / var(--tw-bg-opacity));
 }
 
-.bg-purple-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
-}
-
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -821,39 +816,9 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.bg-violet-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(109 40 217 / var(--tw-bg-opacity));
-}
-
-.bg-violet-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
-}
-
-.bg-violet-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(167 139 250 / var(--tw-bg-opacity));
-}
-
 .bg-violet-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(91 33 182 / var(--tw-bg-opacity));
-}
-
-.bg-violet-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
-}
-
-.bg-violet-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(46 16 101 / var(--tw-bg-opacity));
-}
-
-.bg-violet-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 29 149 / var(--tw-bg-opacity));
 }
 
 .bg-scroll {
@@ -872,6 +837,11 @@ video {
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -914,11 +884,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -929,6 +894,10 @@ video {
 
 .font-\[\'Roboto\'\] {
   font-family: 'Roboto';
+}
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
 }
 
 .text-2xl {
@@ -984,16 +953,6 @@ video {
   color: rgb(101 163 13 / var(--tw-text-opacity));
 }
 
-.text-purple-300 {
-  --tw-text-opacity: 1;
-  color: rgb(216 180 254 / var(--tw-text-opacity));
-}
-
-.text-purple-50 {
-  --tw-text-opacity: 1;
-  color: rgb(250 245 255 / var(--tw-text-opacity));
-}
-
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -1009,14 +968,14 @@ video {
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
+.text-violet-50 {
+  --tw-text-opacity: 1;
+  color: rgb(245 243 255 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-violet-300 {
-  --tw-text-opacity: 1;
-  color: rgb(196 181 253 / var(--tw-text-opacity));
 }
 
 .opacity-60 {
@@ -1043,6 +1002,126 @@ video {
   width: 0;
   height: 0;
   background: transparent;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Black.ttf") format("truetype");
+
+  font-weight: 900;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/BlackItalic.ttf") format("truetype");
+
+  font-weight: 900;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Bold.ttf") format("truetype");
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/BoldItalic.ttf") format("truetype");
+
+  font-weight: 700;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Italic.ttf") format("truetype");
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Light.ttf") format("truetype");
+
+  font-weight: 300;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/LightItalic.ttf") format("truetype");
+
+  font-weight: 300;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Medium.ttf") format("truetype");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/MediumItalic.ttf") format("truetype");
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Regular.ttf") format("truetype");
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Thin.ttf") format("truetype");
+
+  font-weight: 100;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/ThinItalic.ttf") format("truetype");
+
+  font-weight: 100;
+
+  font-style: italic;
 }
 
 .odd\:bg-gray-800:nth-child(odd) {
