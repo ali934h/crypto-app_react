@@ -892,10 +892,6 @@ video {
   text-align: center;
 }
 
-.font-\[\'Roboto\'\] {
-  font-family: 'Roboto';
-}
-
 .font-roboto {
   font-family: Roboto, sans-serif;
 }
@@ -1007,7 +1003,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Black.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Black.ttf") format("truetype");
 
   font-weight: 900;
 
@@ -1017,7 +1013,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/BlackItalic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/BlackItalic.ttf") format("truetype");
 
   font-weight: 900;
 
@@ -1027,7 +1023,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Bold.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -1037,7 +1033,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/BoldItalic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/BoldItalic.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -1047,7 +1043,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Italic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Italic.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -1057,7 +1053,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Light.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Light.ttf") format("truetype");
 
   font-weight: 300;
 
@@ -1067,7 +1063,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/LightItalic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/LightItalic.ttf") format("truetype");
 
   font-weight: 300;
 
@@ -1077,7 +1073,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Medium.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Medium.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -1087,7 +1083,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/MediumItalic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/MediumItalic.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -1097,7 +1093,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Regular.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Regular.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -1107,7 +1103,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/Thin.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/Thin.ttf") format("truetype");
 
   font-weight: 100;
 
@@ -1117,7 +1113,7 @@ video {
 @font-face {
   font-family: "Roboto";
 
-  src: url("../fonts/Roboto/ThinItalic.ttf") format("truetype");
+  src: url("@/assets/fonts/Roboto/ThinItalic.ttf") format("truetype");
 
   font-weight: 100;
 

@@ -38,7 +38,7 @@ function CryptoTable() {
   }, [fullApi]);
 
   return (
-    <div className="font-roboto flex flex-col items-center justify-center gap-y-4 shadow-md sm:rounded-lg">
+    <div className="font flex flex-col items-center justify-center gap-y-4 shadow-md sm:rounded-lg">
       {/* Search component to filter results based on currency */}
       <Search currency={currency} setCurrency={setCurrency} />
       <div className="relative min-h-[35rem] w-full overflow-auto text-left text-sm">
