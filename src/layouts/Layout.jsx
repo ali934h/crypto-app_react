@@ -4,7 +4,7 @@ import { IoMdHeart } from "react-icons/io";
 
 function Layout({ children }) {
   return (
-    <div className="flex flex-col items-center justify-center bg-slate-900 text-white">
+    <div className="font-BricolageGrotesque flex flex-col items-center justify-center bg-slate-900 text-white">
       <div className="container flex h-full min-h-screen flex-col gap-y-3 py-4">
         {/* Header section */}
         <header className="flex items-center justify-between rounded-md bg-violet-800 px-3 py-2 text-lg font-bold text-white">
